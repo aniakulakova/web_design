@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Lab3</title>
+    <link rel = "stylesheet" href = "calendar.css" />
+    <link rel = "stylesheet" href = "style.css" />
+  </head>
+  <body>
+    <div id = "app" class = "clearfix">
+      <div class = "column column-themes">
+        <div id = "themes">
+          Themes
+        </div>
+        <div>
+          <input id = "theme-text" type = "text"></input><br />
+          <button id = "send-theme">Add Theme</button>
+        </div>
+      </div>
+      <div class = "column column-messages">
+        <div id = "messages">
+          Messages
+        </div>
+        <div>
+          <textarea id = "message-text"></textarea><br / >
+          <button id = "send-message">Add message</button>
+        </div>
+      </div>
+      <div class = "column column-calendar">
+        <div class = "calendar" id = "calendar"></div>
+      </div>
+    </div>
+    <script src = "calendar.js"></script>
+    <script src = "script.js"></script>
+  </body>
+</html>
